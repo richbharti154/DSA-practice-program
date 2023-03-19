@@ -1,35 +1,25 @@
+let arr=[1,1,2,2,3]
+
+ function RemoveDuplicates(arr){
  
-function RemoveDuplicates(arr,k){
- 
+ let n=arr.length
 let i=1
 let j=1
-while(i<j){
+while(i<n){
  if(arr[i]==arr[i-1]){
      i++
  }
  else{
-     if(arr[i]==arr[j])
-     i++
+     if(arr[i]=arr[j])
+     
      j++
+     i++
  }
- return j
-}
-}
-console.log(RemoveDuplicates(arr,k))
- function RemoveDuplicates(){
     
-   let i=1
-   let j=1
-   while(i<j){
-    if(arr[i]==arr[i-1]){
-        i++
-    }
-    else{
-        if(arr[i]==arr[j])
-        i++
-        j++
-    }
-    return j
-   }
+}
+arr.length=j
+  return arr
  }
- console.log(RemoveDuplicates())
+ 
+console.log(RemoveDuplicates(arr))
+ 
