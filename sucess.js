@@ -14,4 +14,5 @@ for (let i in str) {
 for (let key in frequencyCounter) {
   result += `${key} :- ${frequencyCounter[key]}\n`;
 }
+console.log(result)
 

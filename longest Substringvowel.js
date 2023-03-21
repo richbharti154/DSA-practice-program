@@ -1,4 +1,4 @@
-let word='aeiioaeiou'
+let word='aeiioaneiou'
 function SubstringVowel(word){
     var ans=0, n=word.length
     count=1
