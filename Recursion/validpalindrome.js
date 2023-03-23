@@ -1,4 +1,4 @@
-// let arr="A man, a plan, a canal: Panama"
+let arr="A man, a plan, a canal: Panama"
 
 function reverse(str){
     if(str.length<=1) return str
