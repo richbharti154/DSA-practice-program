@@ -8,7 +8,7 @@ function frequent(nums,k){
   let arr=Object.keys(obj)
     arr=arr.sort((a,b)=>obj[b]-obj[a])
     arr.length===k
-     return arr.join('')
+     return arr.join()
      
 }
   console.log(frequent([4,4,5,5,5,6]))
