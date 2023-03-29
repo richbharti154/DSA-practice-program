@@ -13,11 +13,11 @@ function container(height){
             l++
         }
         else{
-            i--
+            r--
         }
         return sum
 
     }
  
 }
-console.log(container([1,8,6,2,5,4,8,3,7]))
+console.log(container([6,7,2,3]))
