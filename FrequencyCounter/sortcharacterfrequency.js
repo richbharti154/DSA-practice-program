@@ -4,11 +4,11 @@ function sortCharacter(nums){
     // nums='tree'
     // //  let arr='eert' 
     let obj={}
-    let arr
+   
     for(let i in nums){
      obj[nums[i]]=(obj[nums[i]]||0)+1
     }
-     arr=nums.split('').sort()
+   let   arr=nums.split('').sort()
    
    
     return arr.join('')

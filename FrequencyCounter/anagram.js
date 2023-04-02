@@ -6,7 +6,7 @@ let freq1={}
 for(let i=0;i<str.length;i++){
  fre[str[i]]=(fre[str[i]]||0)+1
 }
-for(let i=0;i<str.length;i++){
+for(let i=0;i<str1.length;i++){
     freq1[str1[i]]=(freq1[str1]||0)+1
 }
 for(key in fre){

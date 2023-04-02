@@ -8,4 +8,4 @@ function reverse1(str){
 
 return false
 }
-console.log(reverse1('121'))
+console.log(reverse1('madam'))
