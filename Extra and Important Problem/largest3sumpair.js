@@ -1,4 +1,4 @@
-let arr=[12,34,10,6,40]
+let arr=[11,4,3,10,5,6,4]
 let sum=0
 let smax=0
 let max=0
