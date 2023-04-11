@@ -14,10 +14,11 @@
         if(key[1]!==1){
             return key[0]
         }
-     console.log([8,9,5,9])
+    
     }    
     
 }
+console.log([8,9,5,9,1,2,2,1])
     
     
       

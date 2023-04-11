@@ -6,7 +6,7 @@ function reverse(str){
     }
     return resStr
   }
-//   console.log(reverse('hlo '))
+  console.log(reverse('hlo hi '))
  
    function reverseWord(s) {
       let arr=s.split(" ")
