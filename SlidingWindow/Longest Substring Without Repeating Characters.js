@@ -4,7 +4,7 @@ var lengthOfLongestSubstring = function(s) {
     let i=0
     let j=0
     var ans=0
-    while(j<n){
+    while(i<n){
         if(freq[s[j]]==1){
             freq[s[i]]=0;
             i++;
@@ -19,4 +19,4 @@ var lengthOfLongestSubstring = function(s) {
     }
     return ans
 };
-console.log(lengthOfLongestSubstring('abcabcbb') )
+console.log(lengthOfLongestSubstring('acabcbb') )

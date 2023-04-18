@@ -18,7 +18,7 @@ var longestBeautifulSubstring = function(word) {
     }
     return ans;
 };
-console.log(longestBeautifulSubstring ('"aeiaaioaaaaeiiiiouuuooaauuaeiu"'))
+console.log(longestBeautifulSubstring ("aeiaaioaaaaeiiiiouuuooaauuaeiu"))
 
   
    
